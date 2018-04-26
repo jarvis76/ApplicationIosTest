@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DF487C22092466D005D4020 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF487C12092466D005D4020 /* AppDelegate.swift */; };
+		2DF487C42092466D005D4020 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF487C32092466D005D4020 /* ViewController.swift */; };
+		2DF487C72092466D005D4020 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DF487C52092466D005D4020 /* Main.storyboard */; };
+		2DF487C920924670005D4020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DF487C820924670005D4020 /* Assets.xcassets */; };
+		2DF487CC20924670005D4020 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DF487CA20924670005D4020 /* LaunchScreen.storyboard */; };
+		2DF487D720924670005D4020 /* MonprofitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF487D620924670005D4020 /* MonprofitTests.swift */; };
+		2DF487E220924670005D4020 /* MonprofitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF487E120924670005D4020 /* MonprofitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DF487D320924670005D4020 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DF487B62092466D005D4020 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DF487BD2092466D005D4020;
+			remoteInfo = Monprofit;
+		};
+		2DF487DE20924670005D4020 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DF487B62092466D005D4020 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DF487BD2092466D005D4020;
+			remoteInfo = Monprofit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DF487BE2092466D005D4020 /* Monprofit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monprofit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DF487C12092466D005D4020 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DF487C32092466D005D4020 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2DF487C62092466D005D4020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DF487C820924670005D4020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DF487CB20924670005D4020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DF487CD20924670005D4020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DF487D220924670005D4020 /* MonprofitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonprofitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DF487D620924670005D4020 /* MonprofitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonprofitTests.swift; sourceTree = "<group>"; };
+		2DF487D820924670005D4020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DF487DD20924670005D4020 /* MonprofitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonprofitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DF487E120924670005D4020 /* MonprofitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonprofitUITests.swift; sourceTree = "<group>"; };
+		2DF487E320924670005D4020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DF487BB2092466D005D4020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DF487CF20924670005D4020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DF487DA20924670005D4020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DF487B52092466D005D4020 = {
+			isa = PBXGroup;
+			children = (
+				2DF487C02092466D005D4020 /* Monprofit */,
+				2DF487D520924670005D4020 /* MonprofitTests */,
+				2DF487E020924670005D4020 /* MonprofitUITests */,
+				2DF487BF2092466D005D4020 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DF487BF2092466D005D4020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DF487BE2092466D005D4020 /* Monprofit.app */,
+				2DF487D220924670005D4020 /* MonprofitTests.xctest */,
+				2DF487DD20924670005D4020 /* MonprofitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DF487C02092466D005D4020 /* Monprofit */ = {
+			isa = PBXGroup;
+			children = (
+				2DF487C12092466D005D4020 /* AppDelegate.swift */,
+				2DF487C32092466D005D4020 /* ViewController.swift */,
+				2DF487C52092466D005D4020 /* Main.storyboard */,
+				2DF487C820924670005D4020 /* Assets.xcassets */,
+				2DF487CA20924670005D4020 /* LaunchScreen.storyboard */,
+				2DF487CD20924670005D4020 /* Info.plist */,
+			);
+			path = Monprofit;
+			sourceTree = "<group>";
+		};
+		2DF487D520924670005D4020 /* MonprofitTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DF487D620924670005D4020 /* MonprofitTests.swift */,
+				2DF487D820924670005D4020 /* Info.plist */,
+			);
+			path = MonprofitTests;
+			sourceTree = "<group>";
+		};
+		2DF487E020924670005D4020 /* MonprofitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DF487E120924670005D4020 /* MonprofitUITests.swift */,
+				2DF487E320924670005D4020 /* Info.plist */,
+			);
+			path = MonprofitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DF487BD2092466D005D4020 /* Monprofit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DF487E620924670005D4020 /* Build configuration list for PBXNativeTarget "Monprofit" */;
+			buildPhases = (
+				2DF487BA2092466D005D4020 /* Sources */,
+				2DF487BB2092466D005D4020 /* Frameworks */,
+				2DF487BC2092466D005D4020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Monprofit;
+			productName = Monprofit;
+			productReference = 2DF487BE2092466D005D4020 /* Monprofit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DF487D120924670005D4020 /* MonprofitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DF487E920924670005D4020 /* Build configuration list for PBXNativeTarget "MonprofitTests" */;
+			buildPhases = (
+				2DF487CE20924670005D4020 /* Sources */,
+				2DF487CF20924670005D4020 /* Frameworks */,
+				2DF487D020924670005D4020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DF487D420924670005D4020 /* PBXTargetDependency */,
+			);
+			name = MonprofitTests;
+			productName = MonprofitTests;
+			productReference = 2DF487D220924670005D4020 /* MonprofitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DF487DC20924670005D4020 /* MonprofitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DF487EC20924670005D4020 /* Build configuration list for PBXNativeTarget "MonprofitUITests" */;
+			buildPhases = (
+				2DF487D920924670005D4020 /* Sources */,
+				2DF487DA20924670005D4020 /* Frameworks */,
+				2DF487DB20924670005D4020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DF487DF20924670005D4020 /* PBXTargetDependency */,
+			);
+			name = MonprofitUITests;
+			productName = MonprofitUITests;
+			productReference = 2DF487DD20924670005D4020 /* MonprofitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DF487B62092466D005D4020 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Christopher MONPROFIT";
+				TargetAttributes = {
+					2DF487BD2092466D005D4020 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					2DF487D120924670005D4020 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 2DF487BD2092466D005D4020;
+					};
+					2DF487DC20924670005D4020 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 2DF487BD2092466D005D4020;
+					};
+				};
+			};
+			buildConfigurationList = 2DF487B92092466D005D4020 /* Build configuration list for PBXProject "Monprofit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DF487B52092466D005D4020;
+			productRefGroup = 2DF487BF2092466D005D4020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DF487BD2092466D005D4020 /* Monprofit */,
+				2DF487D120924670005D4020 /* MonprofitTests */,
+				2DF487DC20924670005D4020 /* MonprofitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DF487BC2092466D005D4020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF487CC20924670005D4020 /* LaunchScreen.storyboard in Resources */,
+				2DF487C920924670005D4020 /* Assets.xcassets in Resources */,
+				2DF487C72092466D005D4020 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DF487D020924670005D4020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DF487DB20924670005D4020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DF487BA2092466D005D4020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF487C42092466D005D4020 /* ViewController.swift in Sources */,
+				2DF487C22092466D005D4020 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DF487CE20924670005D4020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF487D720924670005D4020 /* MonprofitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DF487D920924670005D4020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF487E220924670005D4020 /* MonprofitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DF487D420924670005D4020 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DF487BD2092466D005D4020 /* Monprofit */;
+			targetProxy = 2DF487D320924670005D4020 /* PBXContainerItemProxy */;
+		};
+		2DF487DF20924670005D4020 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DF487BD2092466D005D4020 /* Monprofit */;
+			targetProxy = 2DF487DE20924670005D4020 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DF487C52092466D005D4020 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DF487C62092466D005D4020 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DF487CA20924670005D4020 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DF487CB20924670005D4020 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DF487E420924670005D4020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DF487E520924670005D4020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DF487E720924670005D4020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ENA8X8ECHP;
+				INFOPLIST_FILE = Monprofit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = monprofit.Monprofit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DF487E820924670005D4020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ENA8X8ECHP;
+				INFOPLIST_FILE = Monprofit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = monprofit.Monprofit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2DF487EA20924670005D4020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ENA8X8ECHP;
+				INFOPLIST_FILE = MonprofitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = monprofit.MonprofitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Monprofit.app/Monprofit";
+			};
+			name = Debug;
+		};
+		2DF487EB20924670005D4020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ENA8X8ECHP;
+				INFOPLIST_FILE = MonprofitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = monprofit.MonprofitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Monprofit.app/Monprofit";
+			};
+			name = Release;
+		};
+		2DF487ED20924670005D4020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ENA8X8ECHP;
+				INFOPLIST_FILE = MonprofitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = monprofit.MonprofitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Monprofit;
+			};
+			name = Debug;
+		};
+		2DF487EE20924670005D4020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ENA8X8ECHP;
+				INFOPLIST_FILE = MonprofitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = monprofit.MonprofitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Monprofit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DF487B92092466D005D4020 /* Build configuration list for PBXProject "Monprofit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DF487E420924670005D4020 /* Debug */,
+				2DF487E520924670005D4020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DF487E620924670005D4020 /* Build configuration list for PBXNativeTarget "Monprofit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DF487E720924670005D4020 /* Debug */,
+				2DF487E820924670005D4020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DF487E920924670005D4020 /* Build configuration list for PBXNativeTarget "MonprofitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DF487EA20924670005D4020 /* Debug */,
+				2DF487EB20924670005D4020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DF487EC20924670005D4020 /* Build configuration list for PBXNativeTarget "MonprofitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DF487ED20924670005D4020 /* Debug */,
+				2DF487EE20924670005D4020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DF487B62092466D005D4020 /* Project object */;
+}
